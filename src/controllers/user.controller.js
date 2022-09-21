@@ -23,7 +23,7 @@ export const registerUser = async (req, res, next) => {
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
-      message: 'User login... successfully...'
+      message: 'User login.... successfully...'
     });
   } catch (error) {
     res.status(HttpStatus.BAD_REQUEST).json({
