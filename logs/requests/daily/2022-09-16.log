@@ -1,0 +1,72 @@
+info: ::1 - - [16/Sep/2022:04:17:54 +0000] "GET /api/v1/ HTTP/1.1" 200 25 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:04:19:20 +0000] "POST /api/v1/addUser HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:04:19:41 +0000] "POST /api/v1/users/addUser HTTP/1.1" 500 86 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:04:20:47 +0000] "GET /api/v1/users/ HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:04:22:32 +0000] "POST /api/v1/addUser HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:04:23:16 +0000] "POST /api/v1/users/addUser HTTP/1.1" 201 273 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:04:29:36 +0000] "PUT /api/v1/users/6323fa348aec9239749a6267 HTTP/1.1" 202 272 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:06:48:51 +0000] "GET /api/v1 HTTP/1.1" 200 25 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:06:49:09 +0000] "GET /api/v1/users HTTP/1.1" 200 279 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:06:49:51 +0000] "DELETE /api/v1/users/6323fa348aec9239749a6267 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:06:50:46 +0000] "POST /api/v1/register HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:06:50:59 +0000] "POST /api/v1/users/register HTTP/1.1" 201 298 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:06:56:15 +0000] "POST /api/v1/users/login/sumitjain@gmail.com/sumit43311@ HTTP/1.1" 500 73 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:06:56:31 +0000] "GET /api/v1/users/login/sumitjain@gmail.com/sumit43311@ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:06:57:37 +0000] "GET /api/v1/users/login/sumitjain@gmail.com/sumit43311@ HTTP/1.1" 500 73 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:06:57:46 +0000] "GET /api/v1/users/login/sumitjain@gmail.com/sumit43311@ HTTP/1.1" 500 73 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:06:59:51 +0000] "GET /api/v1/users/login/sumitjain@gmail.com/sumit43311@ HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:07:06:51 +0000] "GET /api/v1/users/login/sumitjain@gmail.com/sumit43311@ HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:07:08:29 +0000] "GET /api/v1/users/login/sumitjain@gmail.com/sumit43311@ HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:07:11:24 +0000] "GET /api/v1/users/login/sumitjain@gmail.com/sumit43311@ HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:07:12:25 +0000] "GET /api/v1/register HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:07:12:33 +0000] "POST /api/v1/register HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:07:13:19 +0000] "POST /api/v1/register HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:07:14:35 +0000] "POST /api/v1/users/register HTTP/1.1" 201 304 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:07:15:21 +0000] "GET /api/v1/users/login/sachinch@gmail.com/sachin43311@ HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:07:15:40 +0000] "GET /api/v1/login/sachinch@gmail.com/sachin43311@ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:07:17:04 +0000] "GET /api/v1/login/users/sachinch@gmail.com/sachin43311@ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:07:18:29 +0000] "GET /api/v1/users/login/sachinch@gmail.com/sachin43311@ HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:07:19:12 +0000] "GET /api/v1/users/login/sachinch@gmail.com/sachin43311@ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:07:20:16 +0000] "POST /api/v1/users/login/sachinch@gmail.com/sachin43311@ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:07:20:34 +0000] "GET /api/v1/users/login HTTP/1.1" 500 127 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:07:21:47 +0000] "GET /api/v1/users/login HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:07:22:08 +0000] "GET /api/v1/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:07:25:36 +0000] "GET /api/v1/users/login/sachinch@gmail.com/sachin43311@ HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:07:26:38 +0000] "GET /api/v1/users HTTP/1.1" 200 500 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:15:55:13 +0000] "GET /api/v1/users/login HTTP/1.1" 500 127 "-" "PostmanRuntime/7.29.2"
+

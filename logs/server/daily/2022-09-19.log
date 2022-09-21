@@ -1,0 +1,1085 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T02:52:21.969Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T02:52:22.295Z"}
+error: 
+    status - 500 
+    message - Error: "firstName" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-19T02:59:46.250Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.LogIn is not a function
+    at _callee6$ (C:\Users\hp\fundoo\src\controllers\/user.controller.js:108:36)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at LogIn (C:\Users\hp\fundoo\src\controllers\/user.controller.js:106:20)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-19T03:00:27.019Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T03:01:28.762Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T03:01:28.817Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T03:03:02.970Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T03:03:03.013Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T03:03:56.172Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T03:03:56.234Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T03:06:17.683Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T03:06:17.724Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.LogIn is not a function
+    at _callee6$ (C:\Users\hp\fundoo\src\controllers\/user.controller.js:108:36)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at LogIn (C:\Users\hp\fundoo\src\controllers\/user.controller.js:106:20)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/login/6327dc6ffe129b24e8e865bb 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-19T03:06:47.435Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T03:07:31.005Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T03:07:31.070Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T03:07:38.047Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T03:07:38.089Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.LogIn is not a function
+    at _callee6$ (C:\Users\hp\fundoo\src\controllers\/user.controller.js:108:36)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at LogIn (C:\Users\hp\fundoo\src\controllers\/user.controller.js:106:20)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/login/6327dc6ffe129b24e8e865bb 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-19T03:07:41.506Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T03:07:56.978Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T03:07:57.017Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.LogIn is not a function
+    at _callee6$ (C:\Users\hp\fundoo\src\controllers\/user.controller.js:108:36)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at LogIn (C:\Users\hp\fundoo\src\controllers\/user.controller.js:106:20)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/login/6327dc6ffe129b24e8e865bb 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-19T03:08:03.974Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T03:09:04.115Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T03:09:04.190Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T03:10:07.574Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T03:10:07.629Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T03:10:50.650Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T03:10:50.696Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T03:11:32.287Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T03:11:32.356Z"}
+error: 
+    status - 500 
+    message - Error: "firstName" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-19T03:36:28.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T03:37:00.537Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T03:37:00.595Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T03:47:05.415Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T03:47:05.447Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T03:55:03.324Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T03:55:03.465Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T04:04:22.994Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T04:04:23.048Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T05:11:49.215Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T05:11:49.304Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T05:12:06.309Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T05:12:06.348Z"}
+error: 
+    status - 500 
+    message - ReferenceError: pass is not defined
+    at _callee$ (C:\Users\hp\fundoo\src\services\/user.service.js:7:35)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.registerUser (C:\Users\hp\fundoo\src\services\/user.service.js:6:26)
+    at _callee$ (C:\Users\hp\fundoo\src\controllers\/user.controller.js:13:36)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at registerUser (C:\Users\hp\fundoo\src\controllers\/user.controller.js:11:26)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\hp\fundoo\src\validators\/user.validator.js:16:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-19T05:12:28.831Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T05:13:05.747Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T05:13:05.778Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T05:30:51.332Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T05:30:51.361Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T09:40:23.132Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T09:40:23.170Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T09:46:39.521Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T09:46:39.556Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T09:49:24.328Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T09:49:24.366Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T09:55:15.759Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T09:55:15.806Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T09:57:29.995Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T09:57:30.024Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T09:59:30.407Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T09:59:30.437Z"}
+error: 
+    status - 500 
+    message - ReferenceError: req is not defined
+    at _callee$ (C:\Users\hp\fundoo\src\services\/user.service.js:10:40)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.registerUser (C:\Users\hp\fundoo\src\services\/user.service.js:8:26)
+    at _callee$ (C:\Users\hp\fundoo\src\controllers\/user.controller.js:13:36)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at registerUser (C:\Users\hp\fundoo\src\controllers\/user.controller.js:11:26)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\hp\fundoo\src\validators\/user.validator.js:16:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-19T09:59:47.062Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T10:00:10.745Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T10:00:10.785Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T10:02:11.555Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T10:02:11.593Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T10:04:50.511Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T10:04:50.548Z"}
+error: 
+    status - 500 
+    message - ReferenceError: firstName is not defined
+    at _callee$ (C:\Users\hp\fundoo\src\services\/user.service.js:13:17)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-19T10:04:57.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T10:06:00.812Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T10:06:00.850Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T10:07:12.862Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T10:07:12.899Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T10:31:59.287Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T10:31:59.332Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T10:34:33.765Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T10:34:33.811Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T10:35:29.887Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T10:35:29.924Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.userLogIn is not a function
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/user.controller.js:32:36)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userLogIn (C:\Users\hp\fundoo\src\controllers\/user.controller.js:30:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-19T10:35:31.532Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T10:36:23.569Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T10:36:23.623Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'email' of undefined
+    at _callee2$ (C:\Users\hp\fundoo\src\services\/user.service.js:24:44)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userLogin (C:\Users\hp\fundoo\src\services\/user.service.js:23:23)
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/user.controller.js:32:36)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userLogin (C:\Users\hp\fundoo\src\controllers\/user.controller.js:30:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-19T10:36:27.624Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T10:38:43.236Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T10:38:43.279Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'email' of undefined
+    at _callee2$ (C:\Users\hp\fundoo\src\services\/user.service.js:25:44)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userLogin (C:\Users\hp\fundoo\src\services\/user.service.js:24:23)
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/user.controller.js:32:36)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userLogin (C:\Users\hp\fundoo\src\controllers\/user.controller.js:30:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-19T10:38:44.610Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T10:39:30.290Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T10:39:30.336Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'email' of undefined
+    at _callee2$ (C:\Users\hp\fundoo\src\services\/user.service.js:25:44)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userLogin (C:\Users\hp\fundoo\src\services\/user.service.js:24:23)
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/user.controller.js:32:36)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userLogin (C:\Users\hp\fundoo\src\controllers\/user.controller.js:30:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-19T10:39:34.362Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T10:56:24.207Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T10:56:24.262Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'email' of undefined
+    at _callee2$ (C:\Users\hp\fundoo\src\services\/user.service.js:27:18)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userLogin (C:\Users\hp\fundoo\src\services\/user.service.js:24:23)
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/user.controller.js:32:36)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userLogin (C:\Users\hp\fundoo\src\controllers\/user.controller.js:30:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-19T10:56:46.368Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T10:59:58.931Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T10:59:58.968Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'email' of undefined
+    at _callee2$ (C:\Users\hp\fundoo\src\services\/user.service.js:27:18)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userLogin (C:\Users\hp\fundoo\src\services\/user.service.js:24:23)
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/user.controller.js:32:36)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userLogin (C:\Users\hp\fundoo\src\controllers\/user.controller.js:30:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-19T11:00:06.364Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T11:06:27.491Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T11:06:27.536Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'email' of undefined
+    at _callee2$ (C:\Users\hp\fundoo\src\services\/user.service.js:27:18)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userLogin (C:\Users\hp\fundoo\src\services\/user.service.js:24:23)
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/user.controller.js:32:36)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userLogin (C:\Users\hp\fundoo\src\controllers\/user.controller.js:30:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-19T11:06:28.652Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T11:07:44.890Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T11:07:44.938Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'email' of undefined
+    at _callee2$ (C:\Users\hp\fundoo\src\services\/user.service.js:27:18)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userLogin (C:\Users\hp\fundoo\src\services\/user.service.js:24:23)
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/user.controller.js:32:36)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userLogin (C:\Users\hp\fundoo\src\controllers\/user.controller.js:30:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-19T11:07:48.923Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T11:08:11.923Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T11:08:11.973Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T15:43:14.165Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T15:43:14.221Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T15:43:52.397Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T15:43:52.442Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T15:47:08.463Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T15:47:08.508Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'email' of undefined
+    at _callee2$ (C:\Users\hp\fundoo\src\services\/user.service.js:27:18)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userLogin (C:\Users\hp\fundoo\src\services\/user.service.js:24:23)
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/user.controller.js:32:36)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userLogin (C:\Users\hp\fundoo\src\controllers\/user.controller.js:30:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-19T15:47:50.541Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T16:01:18.444Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T16:01:18.485Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T16:01:37.203Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T16:01:37.250Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'email' of undefined
+    at _callee2$ (C:\Users\hp\fundoo\src\services\/user.service.js:27:18)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userLogin (C:\Users\hp\fundoo\src\services\/user.service.js:24:23)
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/user.controller.js:32:36)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userLogin (C:\Users\hp\fundoo\src\controllers\/user.controller.js:30:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-19T16:02:05.738Z"}

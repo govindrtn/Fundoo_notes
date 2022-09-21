@@ -1,0 +1,108 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T03:02:48.283Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T03:02:49.265Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'email' of undefined
+    at _callee2$ (C:\Users\hp\fundoo\src\services\/user.service.js:27:19)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.userLogin (C:\Users\hp\fundoo\src\services\/user.service.js:24:23)
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/user.controller.js:32:36)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userLogin (C:\Users\hp\fundoo\src\controllers\/user.controller.js:30:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-20T03:23:56.580Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T03:27:20.568Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T03:27:20.642Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T03:28:32.070Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T03:28:32.128Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T03:29:00.884Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T03:29:00.973Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T03:47:06.358Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T03:47:06.406Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T04:59:06.909Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T04:59:07.011Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T04:59:22.641Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T04:59:22.727Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T05:24:41.232Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T05:24:41.274Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T12:06:59.252Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T12:06:59.299Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T12:13:19.104Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T12:13:19.136Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T12:17:57.799Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T12:17:57.859Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T12:23:44.943Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T12:23:45.002Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T12:24:34.552Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T12:24:34.592Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T12:25:07.891Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T12:25:07.947Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T12:26:09.535Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T12:26:09.591Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T12:27:48.419Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T12:27:48.507Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T12:30:23.728Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T12:30:47.887Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T12:34:49.741Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T12:35:35.836Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T12:42:30.519Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T12:44:12.197Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T12:44:46.137Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T12:45:07.436Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T12:45:27.978Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T12:50:12.177Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T12:50:12.231Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T12:50:24.777Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T12:50:24.826Z"}
