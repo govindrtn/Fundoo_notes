@@ -692,3 +692,9 @@ info: ::1 - - [22/Sep/2022:02:49:43 +0000] "PUT /api/v1/notes/632b3d0e60b30836d8
 
 info: ::1 - - [22/Sep/2022:02:50:23 +0000] "DELETE /api/v1/notes/632b3d0e60b30836d864a501 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [22/Sep/2022:02:59:47 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 201 239 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Sep/2022:03:00:10 +0000] "PUT /api/v1/notes/632bcfa3176fd8272c45fdb7 HTTP/1.1" 202 230 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Sep/2022:03:00:21 +0000] "DELETE /api/v1/notes/632bcfa3176fd8272c45fdb7 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
