@@ -3077,3 +3077,1570 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T0
 info: Connected to the database. {"timestamp":"2022-09-21T03:49:50.863Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T03:55:00.749Z"}
 info: Connected to the database. {"timestamp":"2022-09-21T03:55:00.826Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T16:30:47.475Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T16:30:47.529Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T16:33:47.711Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T16:33:47.757Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T16:34:22.472Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T16:34:22.529Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:21)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes/632b3d0e60b30836d864a501 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T16:34:55.634Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:21)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes/632b3d0e60b30836d864a501 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T16:35:25.112Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T16:36:32.342Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T16:36:32.404Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T16:37:58.875Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T16:37:58.912Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T16:39:48.381Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T16:39:48.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T16:41:12.185Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T16:41:12.226Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T16:42:03.574Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T16:42:03.606Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T16:44:44.516Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T16:44:44.550Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T16:45:18.140Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T16:45:18.174Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:21)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes/632b40073e81f22938c7a4a1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T16:47:26.927Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:21)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes/632b40073e81f22938c7a4a1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T16:47:52.743Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T16:48:26.745Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T16:48:26.801Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:21)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes/632b40073e81f22938c7a4a1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T16:48:46.380Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T17:24:28.387Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T17:24:28.431Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T17:24:58.673Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T17:24:58.715Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee3$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:35:24)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:35:21)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\fundoo\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/632b48f8d0cc3d206046562f 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:25:32.848Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee3$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:35:24)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:35:21)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\fundoo\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/632b48f8d0cc3d206046562f 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:26:37.293Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee3$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:35:24)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:35:21)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\fundoo\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/632b48f8d0cc3d206046562f 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:27:26.591Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee3$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:35:24)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:35:21)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\fundoo\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/632b48f8d0cc3d206046562f 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:27:28.293Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee3$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:35:24)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:35:21)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\fundoo\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/632b48f8d0cc3d206046562f 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:27:29.666Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee3$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:35:24)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:35:21)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\fundoo\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/632b48f8d0cc3d206046562f 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:27:31.152Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:27)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\fundoo\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:28:02.003Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:27)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\hp\fundoo\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:28:16.055Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T17:28:52.594Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T17:28:52.676Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:27)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:28:55.433Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:27)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:28:56.973Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:27)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:28:58.159Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:27)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:28:59.502Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:27)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:29:00.705Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:27)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:29:09.422Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:27)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:29:10.939Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:27)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:29:11.989Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:27)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:29:13.176Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:27)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:29:13.968Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:27)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:29:14.826Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:27)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:29:18.120Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T17:30:10.144Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T17:30:10.198Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T17:30:50.657Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T17:30:50.711Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:27)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes/getallnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:30:54.049Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:27)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes/getallnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:30:55.874Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:27)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes/getallnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:30:58.550Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:27)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:21:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (async_hooks.js:197:9)
+    at invokeCallback (C:\Users\hp\fundoo\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\hp\fundoo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\hp\fundoo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/notes/getallnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:33:26.253Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T17:33:55.497Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T17:33:55.538Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T17:38:08.857Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T17:38:08.915Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T17:39:38.720Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T17:39:38.770Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T17:48:55.124Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T17:48:55.167Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T17:52:15.295Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T17:52:15.340Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T17:54:20.104Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T17:54:20.161Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\fundoo\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\fundoo\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\fundoo\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\fundoo\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\fundoo\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\fundoo\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/createnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:57:17.298Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\fundoo\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\fundoo\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\fundoo\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\fundoo\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\fundoo\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\fundoo\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/createnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:58:09.597Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T17:58:49.741Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T17:58:49.793Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\fundoo\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\fundoo\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\fundoo\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\fundoo\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\fundoo\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\fundoo\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/createnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:58:50.910Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\fundoo\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\fundoo\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\fundoo\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\fundoo\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\fundoo\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\fundoo\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/createnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:58:52.654Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\fundoo\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\fundoo\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\fundoo\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\fundoo\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\fundoo\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\fundoo\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/createnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:58:54.454Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\fundoo\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\fundoo\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\fundoo\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\fundoo\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\fundoo\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\fundoo\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/createnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:59:03.650Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\fundoo\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\fundoo\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\fundoo\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\fundoo\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\fundoo\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\fundoo\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/createnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T17:59:42.721Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T18:00:12.943Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T18:00:12.994Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\hp\fundoo\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\hp\fundoo\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\hp\fundoo\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\hp\fundoo\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\hp\fundoo\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\fundoo\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/createnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-21T18:01:06.115Z"}
+error: 
+    status - 500 
+    message - ReferenceError: User is not defined
+    at _callee5$ (C:\Users\hp\fundoo\src\services\/note.service.js:39:27)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.deleteNote (C:\Users\hp\fundoo\src\services\/note.service.js:39:24)
+    at _callee5$ (C:\Users\hp\fundoo\src\controllers\/note.controller.js:72:23)
+    at tryCatch (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\hp\fundoo\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at deleteNote (C:\Users\hp\fundoo\src\controllers\/note.controller.js:70:24)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\hp\fundoo\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\hp\fundoo\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\hp\fundoo\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hp\fundoo\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\hp\fundoo\node_modules\body-parser\lib\read.js:137:5 
+    url - /api/v1/notes/632b516628069f1d6cdd6c0f 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-09-21T18:02:17.816Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T18:02:43.965Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T18:02:44.017Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T18:05:03.656Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T18:05:03.746Z"}
+error: 
+    status - 500 
+    message - Error: "email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-21T18:08:01.980Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T18:09:29.492Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T18:09:29.545Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T18:10:11.869Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T18:10:11.916Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T18:10:40.918Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T18:10:40.973Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T18:12:41.632Z"}
+info: Connected to the database. {"timestamp":"2022-09-21T18:12:41.687Z"}

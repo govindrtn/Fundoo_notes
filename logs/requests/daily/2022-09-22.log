@@ -1,0 +1,16 @@
+info: ::1 - - [22/Sep/2022:02:46:00 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 201 241 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Sep/2022:02:46:38 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 201 239 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Sep/2022:02:46:51 +0000] "POST /api/v1/notes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Sep/2022:02:47:09 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 1810 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Sep/2022:02:48:34 +0000] "PUT /api/v1/notes/632b516628069f1d6cdd6c0f HTTP/1.1" 202 230 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Sep/2022:02:49:05 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 1811 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Sep/2022:02:49:43 +0000] "PUT /api/v1/notes/632b3d0e60b30836d864a501 HTTP/1.1" 202 230 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [22/Sep/2022:02:50:23 +0000] "DELETE /api/v1/notes/632b3d0e60b30836d864a501 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.2"
+
