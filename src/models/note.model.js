@@ -15,10 +15,12 @@ const userSchema = new Schema(
         },
         isArchived: {
             type: Boolean,
+            default:true
             
         },
         isTrashed: {
             type: Boolean,
+            default:true
         
         },
         // UserID: {
