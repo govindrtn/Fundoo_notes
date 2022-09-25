@@ -46,7 +46,7 @@ export const getNote = async (req, res, next) => {
 };
 
 
-
+// Controller to Update a Note by Id
  export const updateNote = async (req, res, next) => {
   try {
     const data = await NoteService.updateNote(req.params._id, req.body);
@@ -71,6 +71,34 @@ export const deleteNote = async (req, res, next) => {
       message: 'Note deleted successfully.....'
     });
     console.log("Note Deleted..... ")
+  } catch (error) {
+    next(error);
+  }
+};
+
+// Controller to Update a Note by Id
+export const archiveNote = async (req, res, next) => {
+  try {
+    const data = await NoteService.archiveNote(req.params._id);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'Note Archived.. successfully.....'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
+// Controller to Update a Note by Id
+export const trashNote = async (req, res, next) => {
+  try {
+    const data = await NoteService.trashNote(req.params._id);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'Note Trashed.. successfully.....'
+    });
   } catch (error) {
     next(error);
   }

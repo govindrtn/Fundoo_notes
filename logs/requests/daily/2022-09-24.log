@@ -1,0 +1,14 @@
+info: ::1 - - [24/Sep/2022:06:21:09 +0000] "GET /api-docs HTTP/1.1" 301 183 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Sep/2022:06:21:09 +0000] "GET /api-docs/ HTTP/1.1" 200 3103 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Sep/2022:06:21:09 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 311848 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Sep/2022:06:21:09 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 144681 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Sep/2022:06:21:09 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1058191 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Sep/2022:06:21:09 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 5583 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Sep/2022:06:21:10 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+

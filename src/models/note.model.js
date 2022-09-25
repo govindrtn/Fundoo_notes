@@ -10,18 +10,20 @@ const userSchema = new Schema(
             type: String,
             required: true,
         },
-        color: {
+        Colour: {
             type: String,
         },
         isArchived: {
             type: Boolean,
+            default:false
         },
-        isDeleted: {
+        isTrashed: {
             type: Boolean,
+            default:false
         },
-        UserID: {
-            type: String
-        }
+        // UserID: {
+        //     type: String
+        // }
     },
 
     {

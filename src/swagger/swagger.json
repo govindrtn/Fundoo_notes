@@ -1,0 +1,205 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "V1",
+        "title": " Fundoo Notes ",
+        "description": " fundoo_Notes App API"
+    },
+    "host": "localhost:3000",
+    "basePath": "/api/v1/",
+    "tags": [
+        {
+            "name": "Fundoo Notes",
+            "description": "Creating user"
+        }
+    ],
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/users/register": {
+            "post": {
+                "tags": [
+                    "users"
+                ],
+                "description": "New user registration",
+                "parameters": [
+                    {
+                        "name": "Create User",
+                        "in": "body",
+                        "description": "User",
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New User created successfully"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/users/login": {
+            "post": {
+                "tags": [
+                    "users"
+                ],
+                "description": " Login sucessfully.... ",
+                "parameters": [
+                    {
+                        "name": "User Login",
+                        "in": "body",
+                        "description": "login Detals",
+                        "schema": {
+                            "$ref": "#/definitions/login"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "newuser is created...."
+                    },
+                    "500": {
+                        "description": "error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/notes/createnote": {
+            "post": {
+                "tags": [
+                    "Notes"
+                ],
+                "summary": "Create a new note ",
+                "produces": [],
+                "parameters": [
+                    {
+                        "name": "Create a new Note ",
+                        "in": "body",
+                        "description": "Create a new Note",
+                        "required": false,
+                        "type": "string",
+                        "schema": {
+                            "$ref": "#/definitions/createnote"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New note created succesfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/notes/getall": {
+            "get": {
+                "tags": [
+                    "Notes"
+                ],
+                "summary": "Get all Notes",
+                "produces": [],
+                "parameters": [
+                    {
+                        "name": "Get all notes",
+                        "description": "Get all notes for User",
+                        "required": false
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "All notes fetched successfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        }
+        
+    },
+    "securityDefinitions": {
+        "JWT": {
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+        }
+    },
+    "definitions": {
+        "User": {
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                }
+            }
+        },
+        "login": {
+            "type": "object",
+            "properties": {
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                }
+            }
+        },
+        "createnote": {
+            "type": "object",
+            "properties": {
+                "Title": {
+                    "type": "string"
+                },
+                "Description": {
+                    "type": "string"
+                },
+                "Colour": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

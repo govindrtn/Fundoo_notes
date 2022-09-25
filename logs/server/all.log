@@ -4646,3 +4646,61 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-21T1
 info: Connected to the database. {"timestamp":"2022-09-21T18:12:41.687Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-22T02:59:17.187Z"}
 info: Connected to the database. {"timestamp":"2022-09-22T02:59:17.243Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-23T09:34:41.826Z"}
+info: Connected to the database. {"timestamp":"2022-09-23T09:34:41.903Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-23T09:35:04.448Z"}
+info: Connected to the database. {"timestamp":"2022-09-23T09:35:04.499Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-23T09:46:29.433Z"}
+info: Connected to the database. {"timestamp":"2022-09-23T09:46:29.481Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-23T09:46:52.061Z"}
+info: Connected to the database. {"timestamp":"2022-09-23T09:46:52.149Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-23T09:47:50.278Z"}
+info: Connected to the database. {"timestamp":"2022-09-23T09:47:50.328Z"}
+error: uncaughtException: C:\Users\hp\fundoo\src\swagger\swagger.json: Unexpected end of JSON input
+SyntaxError: C:\Users\hp\fundoo\src\swagger\swagger.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1115:22)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (C:\Users\hp\fundoo\src\/index.js:20:25)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Module._compile (C:\Users\hp\fundoo\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Object.newLoader [as .js] (C:\Users\hp\fundoo\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.runMain (internal/modules/run_main.js:76:12)
+    at Object.<anonymous> (C:\Users\hp\fundoo\node_modules\@babel\node\src\_babel-node.ts:215:12)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14) {"date":"Fri Sep 23 2022 15:20:01 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":58137},"process":{"argv":["node","C:\\Users\\hp\\fundoo\\src\\index.js"],"cwd":"C:\\Users\\hp\\fundoo","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18682942,"external":20918657,"heapTotal":130150400,"heapUsed":109363752,"rss":167395328},"pid":18296,"uid":null,"version":"v14.17.6"},"stack":"SyntaxError: C:\\Users\\hp\\fundoo\\src\\swagger\\swagger.json: Unexpected end of JSON input\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1115:22)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Module.require (internal/modules/cjs/loader.js:961:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (C:\\Users\\hp\\fundoo\\src\\/index.js:20:25)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)\n    at Module._compile (C:\\Users\\hp\\fundoo\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1101:10)\n    at Object.newLoader [as .js] (C:\\Users\\hp\\fundoo\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:937:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:778:12)\n    at Function.runMain (internal/modules/run_main.js:76:12)\n    at Object.<anonymous> (C:\\Users\\hp\\fundoo\\node_modules\\@babel\\node\\src\\_babel-node.ts:215:12)\n    at Module._compile (internal/modules/cjs/loader.js:1072:14)","timestamp":"2022-09-23T09:50:01.924Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1115,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":961,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":25,"file":"C:\\Users\\hp\\fundoo\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\hp\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1101,"method":".js","native":false},{"column":7,"file":"C:\\Users\\hp\\fundoo\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":937,"method":"load","native":false},{"column":12,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":778,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.runMain","line":76,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\hp\\fundoo\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":215,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1072,"method":"_compile","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-23T09:52:06.847Z"}
+info: Connected to the database. {"timestamp":"2022-09-23T09:52:06.913Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-23T09:53:55.209Z"}
+info: Connected to the database. {"timestamp":"2022-09-23T09:53:55.273Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-23T09:54:37.913Z"}
+info: Connected to the database. {"timestamp":"2022-09-23T09:54:37.951Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-23T09:54:49.160Z"}
+info: Connected to the database. {"timestamp":"2022-09-23T09:54:49.209Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-23T09:55:05.042Z"}
+info: Connected to the database. {"timestamp":"2022-09-23T09:55:05.148Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-23T09:55:20.656Z"}
+info: Connected to the database. {"timestamp":"2022-09-23T09:55:20.701Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-23T09:57:50.127Z"}
+info: Connected to the database. {"timestamp":"2022-09-23T09:57:50.166Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-23T09:58:32.933Z"}
+info: Connected to the database. {"timestamp":"2022-09-23T09:58:32.989Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-23T10:04:38.155Z"}
+info: Connected to the database. {"timestamp":"2022-09-23T10:04:38.219Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-24T06:20:51.589Z"}
+info: Connected to the database. {"timestamp":"2022-09-24T06:20:51.648Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-24T06:26:19.302Z"}
+info: Connected to the database. {"timestamp":"2022-09-24T06:26:19.361Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-24T06:26:30.088Z"}
+info: Connected to the database. {"timestamp":"2022-09-24T06:26:30.124Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-24T06:26:58.296Z"}
+info: Connected to the database. {"timestamp":"2022-09-24T06:26:58.335Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-24T06:27:21.185Z"}
+info: Connected to the database. {"timestamp":"2022-09-24T06:27:21.240Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-24T06:27:43.878Z"}
+info: Connected to the database. {"timestamp":"2022-09-24T06:27:43.919Z"}
