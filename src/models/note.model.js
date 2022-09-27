@@ -15,17 +15,16 @@ const userSchema = new Schema(
         },
         isArchived: {
             type: Boolean,
-            default:true
-            
+            default:false  
         },
         isTrashed: {
             type: Boolean,
-            default:true
+            default:false
         
         },
-        // UserID: {
-        //     type: String
-        // }
+        UserID: {
+            type: String
+        }
     },
 
     {
