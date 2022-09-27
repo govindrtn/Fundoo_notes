@@ -4,11 +4,16 @@ import mongoose from 'mongoose';
 
 import app from '../../src/index';
 
+const loginToken;
+
+
+
+
 describe('User APIs Test', () => {
   before((done) => {
     const clearCollections = () => {
       for (const collection in mongoose.connection.collections) {
-        mongoose.connection.collections[collection].deleteOne(() => {});
+        mongoose.connection.collections[collection].deleteOne(() => { });
       }
     };
 
@@ -26,16 +31,5 @@ describe('User APIs Test', () => {
     done();
   });
 
-  describe('GET /users', () => {
-    it('should return empty array', (done) => {
-      request(app)
-        .get('/api/v1/users')
-        .end((err, res) => {
-          expect(res.statusCode).to.be.equal(200);
-          expect(res.body.data).to.be.an('array');
-
-          done();
-        });
-    });
-  });
+  
 });

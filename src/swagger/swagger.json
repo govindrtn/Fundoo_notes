@@ -78,12 +78,8 @@
                     "500": {
                         "description": "error"
                     }
-                },
-                "security": [
-                    {
-                        "JWT": []
-                    }
-                ]
+                }
+                
             }
         },
         "/notes/createnote": {
@@ -120,13 +116,11 @@
                 ]
             }
         },
-        "/notes/": {
+        "/notes/getall/": {
             "get": {
-                "tags": [
-                    "Notes"
-                ],
+                "tags": ["Notes"],
                 "summary": "Get all Notes",
-                "produces": [],
+                "produces": ["application/json"],
                 "parameters": [
                     {
                         "name": "Get all notes",
@@ -149,13 +143,11 @@
                 ]
             }
         },
-        "/notes/{:id}": {
+        "/notes{_id}": {
             "get": {
-                "tags": [
-                    "Notes"
-                ],
+                "tags": [ "Notes"],
                 "summary": "Get a single note by id",
-                "produces": [],
+                "produces": ["application/json"],
                 "parameters": [
                     {
                         "name": "_id",
@@ -183,13 +175,9 @@
                 ]
             },
             "put": {
-                "tags": [
-                    "Notes"
-                ],
+                "tags": ["Notes"],
                 "summary": "Update note by id",
-                "produces": [
-                    "application/json"
-                ],
+                "produces": ["application/json"],
                 "parameters": [
                     {
                         "name": "_id",
@@ -223,10 +211,10 @@
                 ]
             },
             "delete": {
-                "tags": [
-                    "Notes"
-                ],
+                "tags": ["Notes"],
+                "summary":"Delete a note",
                 "description": "Delete Note",
+                "produces": ["application/json"],
                 "parameters": [
                     {
                         "name": "_id",
@@ -238,9 +226,6 @@
                             "$ref": "#/definitions/createnote"
                         }
                     }
-                ],
-                "produces": [
-                    "application/json"
                 ],
                 "responses": {
                     "201": {
@@ -300,7 +285,7 @@
                 "Title": {
                     "type": "string"
                 },
-                "Description": {
+                "Descreption": {
                     "type": "string"
                 },
                 "Colour": {
