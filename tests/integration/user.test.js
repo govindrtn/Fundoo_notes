@@ -27,16 +27,16 @@ describe('User APIs Test', () => {
     } else {
       // clearCollections();
     }
-
     done();
   });
+
   describe(' User register', () => {
     it('should return user registeration.....done ', (done) => {
       const RegisterUser = {
-        firstName: "sumit",
-        lastName: "pal",
-        email: "sumitpal12@gmail.com",
-        password: "qazplm1232@"
+        firstName: "Raj",
+        lastName: "Lodhi",
+        email: "rajlodhi@gmail.com",
+        password: "plmqaz1234@"
       }
       request(app)
         .post('/api/v1/users/register')
@@ -48,47 +48,32 @@ describe('User APIs Test', () => {
     });
     it('when user enter valid details login sucess....', (done) => {
       const loginUser = {
-        email: "sumitpal12@gmail.com",
-        password: "qazplm1232@"
+        email: "rajlodhi@gmail.com",
+        password: "plmqaz1234@"
       }
       request(app)
         .post('/api/v1/users/login')
         .send(loginUser)
         .end((err, res) => {
           loginToken = res.body.data
-          console.log("login toekn ----------> ", loginToken)
+          console.log("login token --------->" , loginToken);
           expect(res.statusCode).to.be.equal(200)
         })
       done()
-    });
-    it('when user enter valid details not valid login fali....', (done) => {
-      const loginfail = {
-        email: "sachinchouksey",
-        password: "qazplm1@"
-      }
-      request(app)
-        .post('/api/v1/users/login')
-        .send(loginfail)
-        .end((err, res) => {
-          expect(res.statusCode).to.be.equal(400)
-        })
-      done()
     })
-    // ---->
     describe(' Create Note ', () => {
       it('should return note created .....done ', (done) => {
         const Note = {
           Title: "Greet..",
-          Descreption: "Good morning.."
+          Descreption: "Good morning"
         }
         request(app)
           .post('/api/v1/notes/createnote')
           .send(Note)
           .set('Authorization', `bearer ${loginToken}`)
           .end((err, res) => {
-            // console.log("----- ----->  ", res.body);
             noteId = res.body.data._id
-            // console.log(noteId);
+            console.log("note id ------------>",noteId);
             expect(res.statusCode).to.be.equal(201);
           });
         done();
@@ -98,7 +83,7 @@ describe('User APIs Test', () => {
           .get('/api/v1/notes/getall')
           .set('Authorization', `bearer ${loginToken}`)
           .end((err, res) => {
-            expect(res.statusCode).to.be.equal(200); 
+            expect(res.statusCode).to.be.equal(200);
           });
         done();
       })
@@ -113,8 +98,8 @@ describe('User APIs Test', () => {
       })
       it('should return when note update ..... ', (done) => {
         const Note = {
-          Title: "hello..",
-          Descreption: "Good afternoon.."
+          Title: "hello.",
+          Descreption: "Good afternoon."
         }
         request(app)
           .put(`/api/v1/notes/${noteId}`)
@@ -135,6 +120,5 @@ describe('User APIs Test', () => {
         done();
       });
     })
-    // --
   })
-});
+})

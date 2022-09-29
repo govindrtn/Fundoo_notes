@@ -1,7 +1,7 @@
 import express from 'express';
 import * as userController from '../controllers/user.controller';
 import { newUserValidator } from '../validators/user.validator';
-import { userAuth } from '../middlewares/auth.middleware';
+// import { userAuth } from '../middlewares/auth.middleware';
 
 const router = express.Router();
 
@@ -11,8 +11,6 @@ router.post('/register', newUserValidator,  userController.registerUser);
 // route to login a user
 router.post('/login', userController.userLogin);
 
-// route to forget password 
-router.post('/forget', userController.forgetPasword);
 
 export default router;
 

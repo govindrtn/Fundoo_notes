@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 info: ::ffff:127.0.0.1 - - [29/Sep/2022:02:25:22 +0000] "POST /api/v1/users/register HTTP/1.1" 201 334 "-" "node-superagent/3.8.3"
 
 info: ::ffff:127.0.0.1 - - [29/Sep/2022:02:25:22 +0000] "POST /api/v1/users/login HTTP/1.1" 200 261 "-" "node-superagent/3.8.3"
@@ -17,4 +18,43 @@ info: ::ffff:127.0.0.1 - - [29/Sep/2022:02:29:16 +0000] "POST /api/v1/users/regi
 info: ::ffff:127.0.0.1 - - [29/Sep/2022:02:29:16 +0000] "POST /api/v1/users/login HTTP/1.1" 400 54 "-" "node-superagent/3.8.3"
 
 info: ::ffff:127.0.0.1 - - [29/Sep/2022:02:29:16 +0000] "POST /api/v1/users/login HTTP/1.1" 400 54 "-" "node-superagent/3.8.3"
+=======
+info: ::ffff:127.0.0.1 - - [29/Sep/2022:02:40:44 +0000] "POST /api/v1/users/login HTTP/1.1" 400 54 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Sep/2022:02:40:44 +0000] "POST /api/v1/users/login HTTP/1.1" 400 54 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Sep/2022:02:42:04 +0000] "POST /api/v1/users/login HTTP/1.1" 400 54 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Sep/2022:02:42:04 +0000] "POST /api/v1/users/login HTTP/1.1" 400 54 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Sep/2022:02:44:35 +0000] "POST /api/v1/users/login HTTP/1.1" 400 54 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Sep/2022:02:44:36 +0000] "POST /api/v1/users/login HTTP/1.1" 400 54 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Sep/2022:02:48:00 +0000] "POST /api/v1/users/login HTTP/1.1" 400 54 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Sep/2022:02:48:00 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Sep/2022:02:50:42 +0000] "POST /api/v1/users/login HTTP/1.1" 400 54 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Sep/2022:02:50:42 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Sep/2022:02:54:56 +0000] "POST /api/v1/users/login HTTP/1.1" 400 54 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Sep/2022:02:54:56 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Sep/2022:03:00:10 +0000] "POST /api/v1/users/register HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Sep/2022:03:00:10 +0000] "POST /api/v1/users/login HTTP/1.1" 200 258 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Sep/2022:03:00:10 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 201 271 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Sep/2022:03:00:10 +0000] "GET /api/v1/notes/getall HTTP/1.1" 200 268 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Sep/2022:03:00:10 +0000] "GET /api/v1/notes/63350a3a27909107a4476e1c HTTP/1.1" 200 262 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Sep/2022:03:00:10 +0000] "PUT /api/v1/notes/63350a3a27909107a4476e1c HTTP/1.1" 202 269 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [29/Sep/2022:03:00:10 +0000] "DELETE /api/v1/notes/63350a3a27909107a4476e1c HTTP/1.1" 200 67 "-" "node-superagent/3.8.3"
+>>>>>>> Testing_User_note_fundoo_note
 

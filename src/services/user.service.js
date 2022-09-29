@@ -1,7 +1,5 @@
 import dotenv from 'dotenv';
 // dotenv.config();
-
-// import userModel from '../models/user.model';
 import User from '../models/user.model';
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
@@ -61,21 +59,6 @@ export const userLogin = async (body) => {
   else {
     throw new Error("invalid email id......")
   }
-  return data;
-};
-
-
-
-
-// route to login user 
-export const forgetPasword = async (body) => {
-  const data = await User.findOne(
-    {
-      email: body.email,
-    }
-  );
- 
-  return data;
 };
 
 

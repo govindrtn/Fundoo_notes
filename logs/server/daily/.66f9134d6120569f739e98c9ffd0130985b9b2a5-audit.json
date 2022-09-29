@@ -56,6 +56,7 @@
             "hash": "daafc95945dec0982482f0bffb25279c511da6d28a124f3e4b51403046f1f786"
         },
         {
+<<<<<<< HEAD
             "date": 1664303678856,
             "name": "logs\\server\\daily\\2022-09-28.log",
             "hash": "fedf33f069801db0877b8cc59d2d3cbfcde6c2e8e65b6bd802296849269f1270"
@@ -64,6 +65,11 @@
             "date": 1664418320371,
             "name": "logs\\server\\daily\\2022-09-29.log",
             "hash": "c549577dd49a93e88c20ba30713db00d080e9c30f1662c1c9e9c3dd01033385e"
+=======
+            "date": 1664419242415,
+            "name": "logs\\server\\daily\\2022-09-29.log",
+            "hash": "21cb626ef6b7f25d7759971588b5f40cf92fa52e4556826eb009d335eea09716"
+>>>>>>> Testing_User_note_fundoo_note
         }
     ],
     "hashType": "sha256"

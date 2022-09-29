@@ -38,23 +38,3 @@ export const registerUser = async (req, res, next) => {
     });
   }
 };
-
-
-export const forgetPasword = async (req, res, next) => {
-  try {
-    const data = await UserService.forgetPasword(req.body);
-    res.status(HttpStatus.OK).json({
-      code: HttpStatus.OK,
-      data: data,
-      message: ' forget pasword link send successfully...'
-    });
-  } catch (error) {
-    res.status(HttpStatus.BAD_REQUEST).json({
-      code: HttpStatus.BAD_REQUEST,
-      message: `${error}`
-    });
-  }
-};
-
-
-
