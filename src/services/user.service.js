@@ -1,7 +1,5 @@
 import dotenv from 'dotenv';
 // dotenv.config();
-
-// import userModel from '../models/user.model';
 import User from '../models/user.model';
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
@@ -22,7 +20,7 @@ export const registerUser = async (body) => {
   }
   else {
     const saltRound = 11;
-    const hashPassword = await bcrypt.hash(body.password, saltRound)
+    const hashPassword = bcrypt.hashSync(body.password, saltRound)
     const data = await User.create(
       {
         firstName: body.firstName,
@@ -44,7 +42,7 @@ export const userLogin = async (body) => {
     }
   );
   if (data != null) {
-    const isValid = await bcrypt.compare(body.password, data.password)
+    const isValid = bcrypt.compareSync(body.password, data.password)
     if (isValid) {
       let token = jwt.sign({
         firstName: data.firstName,
@@ -61,8 +59,8 @@ export const userLogin = async (body) => {
   else {
     throw new Error("invalid email id......")
   }
-  return data;
 };
+
 
 
 

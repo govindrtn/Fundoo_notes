@@ -1,6 +1,8 @@
 import HttpStatus from 'http-status-codes';
 import * as UserService from '../services/user.service';
 
+
+// contriller for register new user
 export const registerUser = async (req, res, next) => {
   try {
     const data = await UserService.registerUser(req.body);
@@ -17,9 +19,13 @@ export const registerUser = async (req, res, next) => {
   }
 };
 
+// contriller for login new user
  export const userLogin = async (req, res, next) => {
+  // console.log("body ---------------------------------> ",req.body)
   try {
     const data = await UserService.userLogin(req.body);
+    console.log("userLogin data  ---------------------------------> ",data)
+
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
@@ -32,5 +38,6 @@ export const registerUser = async (req, res, next) => {
     });
   }
 };
+
 
 
