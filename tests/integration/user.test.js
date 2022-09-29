@@ -7,8 +7,6 @@ import app from '../../src/index';
 let loginToken, noteId
 
 
-
-
 describe('User APIs Test', () => {
   before((done) => {
     const clearCollections = () => {

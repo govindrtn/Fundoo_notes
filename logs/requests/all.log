@@ -2961,3 +2961,17 @@ info: ::ffff:127.0.0.1 - - [29/Sep/2022:03:00:10 +0000] "PUT /api/v1/notes/63350
 info: ::ffff:127.0.0.1 - - [29/Sep/2022:03:00:10 +0000] "DELETE /api/v1/notes/63350a3a27909107a4476e1c HTTP/1.1" 200 67 "-" "node-superagent/3.8.3"
 >>>>>>> Testing_User_note_fundoo_note
 
+info: ::1 - - [29/Sep/2022:04:21:04 +0000] "POST /api/v1/users/regitser HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:04:21:42 +0000] "POST /api/v1/users/register HTTP/1.1" 400 58 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:04:24:03 +0000] "POST /api/v1/users/register HTTP/1.1" 201 345 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:04:25:07 +0000] "POST /api/v1/users/forget HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:04:25:51 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 438 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:04:27:45 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 70 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:04:29:04 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 437 "-" "PostmanRuntime/7.29.2"
+

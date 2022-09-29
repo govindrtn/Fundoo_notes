@@ -38,3 +38,21 @@ export const registerUser = async (req, res, next) => {
     });
   }
 };
+
+// contriller for forget password 
+export const forgetPassword = async (req, res, next) => {
+  // console.log("body ---------------------------------> ",req.body)
+  try {
+    const data = await UserService.forgetPassword(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'forget password token sent.... successfully...'
+    });
+  } catch (error) {
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      message: `${error}`
+    });
+  }
+};

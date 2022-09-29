@@ -1,6 +1,8 @@
 import dotenv from 'dotenv';
 // dotenv.config();
 import User from '../models/user.model';
+import * as  utilServices from '../utils/sendMail';
+
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 
@@ -60,5 +62,23 @@ export const userLogin = async (body) => {
     throw new Error("invalid email id......")
   }
 };
+
+// route to forget password 
+export const forgetPassword = async (body) => {
+  const data = await User.findOne(
+    {
+      email: body.email,
+    });
+    if(data){
+      let newToken = jwt.sign({email:body.email},process.env.SECRET_KEY)
+      let result = await utilServices.sendMail(data.email,newToken)
+      return result;
+    }
+    else{
+      throw new Error("email id not match...")
+    }
+};
+
+
 
 
