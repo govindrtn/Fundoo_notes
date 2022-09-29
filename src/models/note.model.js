@@ -20,16 +20,13 @@ const userSchema = new Schema(
         isTrashed: {
             type: Boolean,
             default:false
-        
         },
         UserID: {
             type: String
         }
     },
-
     {
         timestamps: true
     }
 );
-
 export default model('Note', userSchema);

@@ -1,0 +1,114 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-27T18:34:41.427Z"}
+info: Connected to the database. {"timestamp":"2022-09-27T18:34:41.509Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T02:25:51.321Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T02:26:38.355Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T02:27:49.664Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T02:31:46.458Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T02:32:26.815Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T02:54:26.527Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T02:54:26.715Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T02:57:55.819Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T02:57:55.983Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T02:58:45.972Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T02:58:46.320Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T03:00:22.832Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T03:12:59.676Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T03:16:38.444Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T03:22:22.596Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T03:23:51.737Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T03:25:45.991Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T03:25:46.374Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T03:27:00.781Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T03:29:41.077Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T03:31:07.149Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T03:32:37.094Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T03:53:39.327Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T03:57:09.310Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T05:59:54.878Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (dns.js:206:19)","syscall":"querySrv","timestamp":"2022-09-28T05:59:54.958Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:00:45.007Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (dns.js:206:19)","syscall":"querySrv","timestamp":"2022-09-28T06:00:45.098Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:01:32.663Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (dns.js:206:19)","syscall":"querySrv","timestamp":"2022-09-28T06:01:32.855Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:02:32.569Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (dns.js:206:19)","syscall":"querySrv","timestamp":"2022-09-28T06:02:32.683Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:03:37.438Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (dns.js:206:19)","syscall":"querySrv","timestamp":"2022-09-28T06:03:37.539Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:05:01.474Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T06:05:01.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:07:11.289Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (dns.js:206:19)","syscall":"querySrv","timestamp":"2022-09-28T06:07:11.361Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:07:54.610Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (dns.js:206:19)","syscall":"querySrv","timestamp":"2022-09-28T06:07:54.684Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:09:17.106Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (dns.js:206:19)","syscall":"querySrv","timestamp":"2022-09-28T06:09:17.173Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:10:57.981Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (dns.js:206:19)","syscall":"querySrv","timestamp":"2022-09-28T06:10:58.056Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:11:49.445Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (dns.js:206:19)","syscall":"querySrv","timestamp":"2022-09-28T06:11:49.517Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:15:14.834Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (dns.js:206:19)","syscall":"querySrv","timestamp":"2022-09-28T06:15:14.879Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:18:49.325Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (dns.js:206:19)","syscall":"querySrv","timestamp":"2022-09-28T06:18:49.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:20:36.951Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (dns.js:206:19)","syscall":"querySrv","timestamp":"2022-09-28T06:20:37.186Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:20:58.888Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (dns.js:206:19)","syscall":"querySrv","timestamp":"2022-09-28T06:20:58.954Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:46:16.436Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T06:46:16.622Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:47:37.479Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T06:47:37.659Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:48:53.103Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T06:48:53.277Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:52:17.218Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T06:52:17.388Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:52:58.985Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T06:52:59.189Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:53:36.821Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T06:53:36.978Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:55:51.258Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T06:55:51.434Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T06:59:52.391Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T06:59:52.614Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T07:01:06.595Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T07:01:06.750Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T07:02:23.673Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T07:02:23.815Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T07:03:16.741Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T07:03:16.881Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T07:03:54.439Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T07:03:54.588Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T07:08:35.428Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T07:08:35.750Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T07:16:47.599Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T07:16:47.754Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T07:18:43.558Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T07:18:43.811Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T07:20:28.971Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T07:20:29.218Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T07:23:22.191Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T07:23:22.413Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T07:25:50.038Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T07:25:50.478Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T07:27:13.048Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T07:27:13.202Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T07:28:55.070Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T07:28:55.347Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T07:32:28.971Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T07:32:29.146Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T11:42:05.230Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T11:42:05.704Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T11:47:43.758Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T11:47:43.842Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-28T11:48:40.548Z"}
+info: Connected to the database. {"timestamp":"2022-09-28T11:48:40.618Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\hp\fundoo\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\hp\fundoo\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/undefined 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-09-28T11:48:41.635Z"}

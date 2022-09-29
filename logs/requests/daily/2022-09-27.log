@@ -322,3 +322,59 @@ info: ::ffff:127.0.0.1 - - [27/Sep/2022:16:56:32 +0000] "POST /api/v1/notes/crea
 
 info: ::ffff:127.0.0.1 - - [27/Sep/2022:16:56:32 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
 
+info: ::ffff:127.0.0.1 - - [27/Sep/2022:18:17:32 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [27/Sep/2022:18:17:32 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 400 78 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [27/Sep/2022:18:19:54 +0000] "POST /api/v1/users/register HTTP/1.1" 201 345 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:18:20:32 +0000] "POST /api/v1/users/login HTTP/1.1" 200 276 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [27/Sep/2022:18:21:03 +0000] "GET /api-docs/ HTTP/1.1" 200 3103 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Sep/2022:18:21:03 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 8256 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Sep/2022:18:21:03 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 311848 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Sep/2022:18:21:03 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1058191 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Sep/2022:18:21:03 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 144681 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Sep/2022:18:21:05 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Sep/2022:18:22:33 +0000] "POST /api/v1/users/login HTTP/1.1" 200 276 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Sep/2022:18:23:54 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 201 286 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Sep/2022:18:24:16 +0000] "GET /api/v1/notes/getall/ HTTP/1.1" 200 500 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Sep/2022:18:24:23 +0000] "GET /api/v1/notes/getall/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Sep/2022:18:24:49 +0000] "GET /api/v1/notes63333fba7d883e0104863164 HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Sep/2022:18:25:52 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Sep/2022:18:25:52 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [27/Sep/2022:18:25:52 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Sep/2022:18:25:52 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [27/Sep/2022:18:25:52 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 8257 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [27/Sep/2022:18:25:53 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Sep/2022:18:26:34 +0000] "POST /api/v1/users/login HTTP/1.1" 200 276 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Sep/2022:18:27:28 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 400 64 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Sep/2022:18:27:59 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 400 64 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Sep/2022:18:28:01 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 400 64 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Sep/2022:18:28:56 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 201 283 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Sep/2022:18:29:27 +0000] "GET /api/v1/notes/getall/ HTTP/1.1" 200 717 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Sep/2022:18:29:49 +0000] "GET /api/v1/notes/633340e872d4ec15142df5d9 HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+

@@ -22,7 +22,7 @@ export const registerUser = async (body) => {
   }
   else {
     const saltRound = 11;
-    const hashPassword = await bcrypt.hash(body.password, saltRound)
+    const hashPassword = bcrypt.hashSync(body.password, saltRound)
     const data = await User.create(
       {
         firstName: body.firstName,
@@ -44,7 +44,7 @@ export const userLogin = async (body) => {
     }
   );
   if (data != null) {
-    const isValid = await bcrypt.compare(body.password, data.password)
+    const isValid = bcrypt.compareSync(body.password, data.password)
     if (isValid) {
       let token = jwt.sign({
         firstName: data.firstName,
@@ -64,5 +64,18 @@ export const userLogin = async (body) => {
   return data;
 };
 
+
+
+
+// route to login user 
+export const forgetPasword = async (body) => {
+  const data = await User.findOne(
+    {
+      email: body.email,
+    }
+  );
+ 
+  return data;
+};
 
 
