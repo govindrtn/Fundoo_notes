@@ -70,7 +70,8 @@ export const forgetPassword = async (body) => {
       email: body.email,
     });
     if(data){
-      let newToken = jwt.sign({email:body.email},process.env.SECRET_KEY)
+      let newToken = jwt.sign({email:body.email},process.env.NEW_SECRET_KEY)
+      console.log("new token ---------->  " ,newToken)
       let result = await utilServices.sendMail(data.email,newToken)
       return result;
     }

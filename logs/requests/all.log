@@ -2981,3 +2981,29 @@ info: ::1 - - [29/Sep/2022:11:55:57 +0000] "POST /api/v1/users/register HTTP/1.1
 
 info: ::1 - - [29/Sep/2022:11:56:28 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 438 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [30/Sep/2022:02:45:22 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 437 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Sep/2022:02:48:05 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 436 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Sep/2022:02:49:08 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 437 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Sep/2022:02:51:01 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 437 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Sep/2022:03:47:15 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 437 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Sep/2022:03:48:26 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 438 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Sep/2022:03:49:58 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 53 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Sep/2022:03:50:18 +0000] "POST /api/v1/users/register HTTP/1.1" 201 341 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Sep/2022:03:50:44 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 434 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Sep/2022:03:50:50 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 434 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Sep/2022:03:53:04 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 434 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Sep/2022:04:37:59 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 434 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [30/Sep/2022:04:42:41 +0000] "POST /api/v1/notes/createnote HTTP/1.1" 201 271 "-" "PostmanRuntime/7.29.2"
+
