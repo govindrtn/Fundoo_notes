@@ -72,3 +72,9 @@ info: ::1 - - [29/Sep/2022:04:27:45 +0000] "POST /api/v1/users/forget HTTP/1.1" 
 
 info: ::1 - - [29/Sep/2022:04:29:04 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 437 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [29/Sep/2022:04:36:47 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 436 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:11:55:57 +0000] "POST /api/v1/users/register HTTP/1.1" 201 345 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [29/Sep/2022:11:56:28 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 438 "-" "PostmanRuntime/7.29.2"
+

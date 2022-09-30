@@ -33,7 +33,7 @@ export async function sendMail(email,newToken) {
             to: email,
             subject: "Hello from gmail API..",
             Text: 'Hello from gmail API',
-            html: `<h1>forget password token ${newToken} </h1>`
+            html: `<h1>forget password token<a herf = ${newToken}> <a>click here </h1>`
         };
         const result = await transport.sendMail(mailOption)
         return result;
