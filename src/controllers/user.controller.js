@@ -46,8 +46,25 @@ export const forgetPassword = async (req, res, next) => {
     const data = await UserService.forgetPassword(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
-      data: data,
       message: 'forget password token sent.... successfully...'
+    });
+  } catch (error) {
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      message: `${error}`
+    });
+  }
+};
+
+
+// contriller for reset password 
+export const resetPassword = async (req, res, next) => {
+  // console.log("body ---------------------------------> ",req.body)
+  try {
+    const data = await UserService.resetPassword(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      message: 'Password Reset successfully...'
     });
   } catch (error) {
     res.status(HttpStatus.OK).json({

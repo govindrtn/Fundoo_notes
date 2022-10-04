@@ -5,13 +5,16 @@ import Note from '../models/note.model';
 export const newNote = async (body) => {
   console.log(body)
   const note = await Note.create(body);
-  return note;
+    return note;
 };
 
 //get all Note 
 export const getAllNote = async () => {
   const note = await Note.find();
-  return note;
+  if(note){
+    await client.set("getall" , JSON.stringify(note))
+    return note;
+  }
 };
 
 //get a Note 
