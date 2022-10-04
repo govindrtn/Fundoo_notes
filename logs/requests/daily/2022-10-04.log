@@ -50,3 +50,7 @@ info: ::1 - - [04/Oct/2022:02:23:55 +0000] "GET /api/v1/notes/getall HTTP/1.1" 2
 
 info: ::1 - - [04/Oct/2022:02:25:49 +0000] "GET /api/v1/notes/getall HTTP/1.1" 200 1781 "-" "PostmanRuntime/7.29.2"
 
+info: ::1 - - [04/Oct/2022:04:19:29 +0000] "GET /api/v1/notes/getall HTTP/1.1" 200 1781 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [04/Oct/2022:04:20:19 +0000] "GET /api/v1/notes/getall HTTP/1.1" 200 1781 "-" "PostmanRuntime/7.29.2"
+
