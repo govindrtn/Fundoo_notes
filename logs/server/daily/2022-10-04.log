@@ -90,3 +90,6 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-04T0
 info: Connected to the Redis database. {"timestamp":"2022-10-04T04:20:18.382Z"}
 info: Connected to the database. {"timestamp":"2022-10-04T04:20:18.399Z"}
 >>>>>>> Fundoo_Notes_Redis_DataBase
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-04T04:24:57.603Z"}
+info: Connected to the Redis database. {"timestamp":"2022-10-04T04:24:57.644Z"}
+info: Connected to the database. {"timestamp":"2022-10-04T04:24:57.671Z"}
