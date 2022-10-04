@@ -31,3 +31,5 @@ info: Connected to the database. {"timestamp":"2022-10-04T02:25:47.722Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-04T02:41:10.548Z"}
 info: Connected to the Redis database. {"timestamp":"2022-10-04T02:41:10.712Z"}
 info: Connected to the database. {"timestamp":"2022-10-04T02:41:10.832Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-04T03:55:15.492Z"}
+info: Connected to the database. {"timestamp":"2022-10-04T03:55:15.672Z"}
