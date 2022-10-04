@@ -38,11 +38,7 @@ export const registerUser = async (body) => {
 
 // route to login user 
 export const userLogin = async (body) => {
-  const data = await User.findOne(
-    {
-      email: body.email,
-    }
-  );
+  const data = await User.findOne({ email: body.email });
   if (data != null) {
     const isValid = bcrypt.compareSync(body.password, data.password)
     if (isValid) {
@@ -69,14 +65,35 @@ export const forgetPassword = async (body) => {
     {
       email: body.email,
     });
-    if(data){
-      let newToken = jwt.sign({email:body.email},process.env.SECRET_KEY)
-      let result = await utilServices.sendMail(data.email,newToken)
-      return result;
+  if (data) {
+    let Token = jwt.sign({ email : data.email,id:data._id }, process.env.NEW_SECRET_KEY)
+    console.log("new token ---------->  ", Token)
+    let result = await utilServices.sendMail(data.email, Token)
+    return result;
+  }
+  else {
+    throw new Error("email id not match...")
+  }
+};
+
+
+
+// route to forget password 
+export const resetPassword = async (body) => {
+  const saltRound = 10;
+  const newHashPassword = await bcrypt.hashSync(body.password, saltRound);
+  const data = await User.findOneAndUpdate(
+    {
+      email: body.email
+    },
+    {
+      password: newHashPassword
+    },
+    {
+      new: true
     }
-    else{
-      throw new Error("email id not match...")
-    }
+  )
+  return data;
 };
 
 

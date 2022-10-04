@@ -1,2 +1,40 @@
+<<<<<<< HEAD
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-04T03:57:31.356Z"}
 info: Connected to the database. {"timestamp":"2022-10-04T03:57:31.496Z"}
+=======
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-04T02:00:36.996Z"}
+info: Connected to the Redis database. {"timestamp":"2022-10-04T02:00:37.043Z"}
+info: Connected to the database. {"timestamp":"2022-10-04T02:00:37.058Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-04T02:02:22.512Z"}
+info: Connected to the Redis database. {"timestamp":"2022-10-04T02:02:22.548Z"}
+info: Connected to the database. {"timestamp":"2022-10-04T02:02:22.579Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-04T02:09:07.274Z"}
+info: Connected to the Redis database. {"timestamp":"2022-10-04T02:09:07.369Z"}
+info: Connected to the database. {"timestamp":"2022-10-04T02:09:07.433Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-04T02:11:38.348Z"}
+info: Connected to the Redis database. {"timestamp":"2022-10-04T02:11:38.406Z"}
+info: Connected to the database. {"timestamp":"2022-10-04T02:11:38.429Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-04T02:13:12.141Z"}
+info: Connected to the Redis database. {"timestamp":"2022-10-04T02:13:12.185Z"}
+info: Connected to the database. {"timestamp":"2022-10-04T02:13:12.218Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-04T02:14:11.297Z"}
+info: Connected to the Redis database. {"timestamp":"2022-10-04T02:14:11.356Z"}
+info: Connected to the database. {"timestamp":"2022-10-04T02:14:11.389Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-04T02:18:03.677Z"}
+info: Connected to the Redis database. {"timestamp":"2022-10-04T02:18:03.709Z"}
+info: Connected to the database. {"timestamp":"2022-10-04T02:18:03.737Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-04T02:19:08.013Z"}
+info: Connected to the Redis database. {"timestamp":"2022-10-04T02:19:08.066Z"}
+info: Connected to the database. {"timestamp":"2022-10-04T02:19:08.101Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-04T02:23:42.212Z"}
+info: Connected to the Redis database. {"timestamp":"2022-10-04T02:23:42.291Z"}
+info: Connected to the database. {"timestamp":"2022-10-04T02:23:42.323Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-04T02:25:47.664Z"}
+info: Connected to the Redis database. {"timestamp":"2022-10-04T02:25:47.691Z"}
+info: Connected to the database. {"timestamp":"2022-10-04T02:25:47.722Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-04T02:41:10.548Z"}
+info: Connected to the Redis database. {"timestamp":"2022-10-04T02:41:10.712Z"}
+info: Connected to the database. {"timestamp":"2022-10-04T02:41:10.832Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-04T03:55:15.492Z"}
+info: Connected to the database. {"timestamp":"2022-10-04T03:55:15.672Z"}
+>>>>>>> User_ResetPassword_api
