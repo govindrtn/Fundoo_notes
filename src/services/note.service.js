@@ -1,18 +1,22 @@
 // import noteModel from '../models/note.model';
+import { client } from '../config/redisDataBase';
 import Note from '../models/note.model';
 
 //create new note
 export const newNote = async (body) => {
   console.log(body)
   const note = await Note.create(body);
+  if (note) {
+    await client.del('getall')
     return note;
+  }
 };
 
 //get all Note 
 export const getAllNote = async () => {
   const note = await Note.find();
-  if(note){
-    await client.set("getall" , JSON.stringify(note))
+  if (note) {
+    await client.set('getall', JSON.stringify(note))
     return note;
   }
 };
