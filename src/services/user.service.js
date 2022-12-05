@@ -2,9 +2,9 @@ import dotenv from 'dotenv';
 // dotenv.config();
 import User from '../models/user.model';
 import * as  utilServices from '../utils/sendMail';
-
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
+const {sender} = require('../utils/RabbitMQ')
 
 
 
@@ -32,6 +32,7 @@ export const registerUser = async (body) => {
       }
     );
     console.log("after hashing ---------> ", body.password);
+    sender(data)
     return data;
   }
 };
